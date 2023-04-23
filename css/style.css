@@ -372,6 +372,13 @@ body.offcanvas {
   margin: 0;
   padding: 0; }
 
+  span.icon.shopify_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: invert(1);
+}
+
 .colorlib-experience,
 .colorlib-skills,
 .colorlib-education,
@@ -380,8 +387,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -394,8 +401,8 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 2em;
+      padding-bottom: 2em; } }
 
 .author-img {
   background-size: cover;
@@ -405,7 +412,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -649,6 +656,18 @@ body.offcanvas {
   .services.color-6 {
     border-bottom: 2px solid #4054b2; }
 
+    span.icon.WordPress_logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      filter: invert(1);
+  }
+  span.icon.webflow_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: invert(1);
+}
 .services {
   margin-bottom: 80px;
   position: relative;
@@ -672,14 +691,14 @@ body.offcanvas {
       right: 0;
       content: ''; }
     .services .icon:before {
-      top: -30px;
+      top: -29px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 0 50px 30px 50px;
       border-color: transparent transparent #2c98f0 transparent; }
     .services .icon:after {
-      bottom: -30px;
+      bottom: -29px;
       width: 0;
       height: 0;
       border-style: solid;
