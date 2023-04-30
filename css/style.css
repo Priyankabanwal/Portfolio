@@ -1021,6 +1021,30 @@ body.offcanvas {
       .project .desc span a {
         color: #000; }
     @media screen and (max-width: 768px) {
+
+      #colorlib-hero {
+        min-height: 500px;
+        background: #fff url(../images/loader.gif) no-repeat center center;
+        width: 100%;
+        float: left;
+        margin-bottom: 0em;
+        clear: both;
+    }
+
+
+    body.offcanvas #colorlib-aside {
+      -moz-transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0);
+      width: 100vw;
+      background: #f2f3f7;
+      z-index: 999;
+      position: fixed;
+      height: 100vh;
+  }
+
       .project .desc {
         opacity: 1;
         background: rgba(0, 0, 0, 0.4); }
